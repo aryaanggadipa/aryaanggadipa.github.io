@@ -3,12 +3,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arya Anggadipa Manova</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='studikasus.css'>
+    <link rel="icon" type="image/x-icon" href="20240926_133004.jpg">
+    <style>
+        .round {
+            border-radius: 500%;
+            overflow: hidden; 
+            display: inline-block; 
+        }
+    </style>
 </head>
+
 <body>
     <center>
-    <p>Arya Anggadipa Manova</p>
-    <p>1202223246</p>
-    <p><i>SI4604</i> - <b><u>S1 Sistem Informasi</u></b></p>
+        <div class="round">
+            <img src="20240926_133004.jpg" height="100px" width=auto/>
+        </div>
+        <h1><u>Arya Anggadipa Manova</u></h1>
+        <p style="font-size:20px;"><b><u>1202223246</u></b></p>
+        <p style="font-size:20px;"><b><u>S1 Sistem Informasi</u></b></p>
+        <p style="font-size:20px;"><b><u><i>SI-46-04</i></u></b></p>
+        
+        <!-- <div class="round"> -->
+            <h2>
+                <a href="https://www.instagram.com/aanggadipa_/"><img src="ig.png" height="40px" width=auto/></a>
+                <a href="https://www.linkedin.com/in/arya-anggadipa-manova-00125928b/"><img src="linkedin.png" height="40px" width=auto/></a>
+            </h2>
+        <!-- </div> -->
     </center>
+    
+    
+    <p align="right"><span id="time"></span></p>
+    <script>
+    var dt = new Date();
+    document.getElementById("time").innerHTML = dt.toLocaleString();
+    </script>
+    
 </body>
 </html>
